@@ -4,8 +4,8 @@
 def counting_sort(numbers):
     """Sort given numbers (integers) by counting occurrences of each number,
     then looping over counts and copying that many numbers into output list.
-    TODO: Running time: ??? Why and under what conditions?
-    TODO: Memory usage: ??? Why and under what conditions?"""
+    TODO: Running time: O(n+k) where n is number of items and k is the range so max - min. All cases are same here we only count and reconctrusct
+    TODO: Memory usage: O(k) for every count in array where k is the range of the values"""
     
     #check if list is empty or has one element
     if len(numbers) <= 1:
